@@ -13,8 +13,9 @@ class EmotionApp : Application() {
     }
     
     companion object {
-        // API Key OpenAI - Thay bằng key của bạn có dạng: sk-proj-... hoặc sk-...
-        // Lấy tại: https://platform.openai.com/api-keys
-        var API_KEY = "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"
+        // API Key sẽ được người dùng nhập vào
+        // Mặc định sử dụng placeholder để test với ảnh dummy
+        // Thay đổi thành Gemini API Key của bạn
+        var API_KEY = "AIzaSyBJ4shDErKZiw1fb8pJ0ghfAoGNLHmxF68"
     }
 }

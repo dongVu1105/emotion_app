@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         
         // Khởi tạo database và repository
         database = (application as EmotionApp).database
-        imageRepository = ImageGenerationRepository(EmotionApp.API_KEY)
+        imageRepository = ImageGenerationRepository(EmotionApp.API_KEY, applicationContext)
         
         setupListeners()
         loadNewQuestion()
