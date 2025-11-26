@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Nhận Diện Cảm Xúc</string>
+    
+    <!-- Main Activity -->
+    <string name="question_title">Đây là cảm xúc gì?</string>
+    <string name="loading">Đang tải câu hỏi...</string>
+    <string name="loading_image">Đang tải hình ảnh...</string>
+    <string name="next_question">Câu tiếp theo</string>
+    <string name="submit_answer">Trả lời</string>
+    
+    <!-- Feedback -->
+    <string name="correct_answer">Chính xác! 🎉</string>
+    <string name="wrong_answer">Chưa đúng. Thử lại nhé! 💪</string>
+    <string name="correct_emotion">Đáp án đúng là: %s</string>
+    
+    <!-- Statistics -->
+    <string name="view_statistics">Xem thống kê</string>
+    <string name="total_questions">Tổng số câu: %d</string>
+    <string name="correct_count">Số câu đúng: %d</string>
+    <string name="accuracy">Độ chính xác: %.1f%%</string>
+    
+    <!-- Errors -->
+    <string name="error_loading_image">Không thể tải hình ảnh</string>
+    <string name="error_api_key">Vui lòng cài đặt API Key</string>
+    <string name="error_network">Lỗi kết nối mạng</string>
+    
+    <!-- Settings -->
+    <string name="settings">Cài đặt</string>
+    <string name="api_key_title">API Key</string>
+    <string name="api_key_hint">Nhập OpenAI API Key</string>
+    <string name="save">Lưu</string>
+    
+    <!-- Emotions -->
+    <string name="emotion_happiness">Hạnh phúc</string>
+    <string name="emotion_sadness">Buồn</string>
+    <string name="emotion_fear">Sợ hãi</string>
+    <string name="emotion_anger">Giận dữ</string>
+    <string name="emotion_disgust">Ghê tởm</string>
+    <string name="emotion_surprise">Ngạc nhiên</string>
+    <string name="emotion_contempt">Khinh thường</string>
+    <string name="emotion_trust">Tin tưởng</string>
+    <string name="emotion_love">Yêu thương</string>
+    <string name="emotion_anticipation">Mong đợi</string>
+</resources>
